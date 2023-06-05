@@ -1,0 +1,30 @@
+body {
+    background-color: #F9F9F9;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.primary-button {
+    background-color: #D4C2FC;
+    color: #000000;
+    padding: 1rem;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.primary-button:hover {
+    background-color: #998FC7;
+}
